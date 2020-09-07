@@ -1,6 +1,6 @@
 #Content {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column nowrap;
   width: 100%;
   height: 100%;
   /* background: url(./nivus.jpeg) 25% 50%/cover no-repeat fixed #001e50; */
@@ -30,6 +30,6 @@
 #DemoContainer {
   align-self: center;
   width: 100%;
-  padding: 2rem;
+  height: 100%;
   border-radius: 1rem;
 }
