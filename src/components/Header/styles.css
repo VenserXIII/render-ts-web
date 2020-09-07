@@ -1,0 +1,33 @@
+#Header {
+  display: flex;
+  align-items: center;
+  padding: 0.5em 0;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  transition: 0.2s ease-in-out;
+}
+
+#Header > hr {
+  width: 100%;
+  height: 0.2em;
+  border: none;
+  background-color: white;
+}
+
+#Header > hr:first-of-type {
+  flex-basis: 100%;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+#Header > hr:last-of-type {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+#Header img {
+  margin: 0 0.75rem;
+  border-radius: 100%;
+  user-select: none;
+}

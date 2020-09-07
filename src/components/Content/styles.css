@@ -1,0 +1,35 @@
+#Content {
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+  height: 100%;
+  /* background: url(./nivus.jpeg) 25% 50%/cover no-repeat fixed #001e50; */
+  background-blend-mode: screen;
+  position: absolute;
+  padding: 80px 0.5em 0.5em;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.Links {
+  color: white;
+  padding: 0 1rem;
+  transition: none !important;
+}
+
+.Links:hover {
+  text-decoration: underline;
+}
+
+#Breadcrumbs {
+  margin: 0 0 2rem 0;
+}
+
+#DemoContainer {
+  align-self: center;
+  width: 100%;
+  padding: 2rem;
+  border-radius: 1rem;
+}
